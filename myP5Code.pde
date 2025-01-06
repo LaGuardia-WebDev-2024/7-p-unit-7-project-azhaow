@@ -5,7 +5,8 @@ void setup() {
 
 //🎯Variable Declarations Go Here
 var petal = 20;
-
+var SPetal = 20
+var fastpetal = 20
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
@@ -17,10 +18,19 @@ draw = function(){
   }
   
   //🎯Animation Code Goes Here
-  ellipse( petal, 15, 10, 10);
+  fill(255, 179, 197)
+  stroke(255, 179, 197)
+  ellipse( 15, petal, 10, 20); 
+  ellipse(120, petal+180, 10, 20); 
+  petal += 1; 
   
-  petal =  petal+ 1;
-
+  
+  ellipse (305, petal + 150, SPetal, SPetal)
+  ellipse (150, petal + 150, SPetal, SPetal)
+  ellipse (250, petal + 180, SPetal, 20)
+  ellipse (200, petal + 150, 20, SPetal)
+  SPetal -= .25 
+ 
 }
 
 //🟡Extra FUN Features Ms. Hall Added
@@ -35,4 +45,4 @@ showXYPositions = function(){
     fill(255,0,255)
     ellipse(mouseX, mouseY, 10, 10);
     fill(255,255,255)
-}
+} 
