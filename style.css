@@ -8,7 +8,7 @@ body {
 #myCanvas {
   background-image: url("https://www.shutterstock.com/image-vector/cherry-blossom-spring-garden-flower-600nw-1573921315.jpg");
   background-size: px;
-  border-radius: 30px;
+  border-radius: 40px;
   border: 1px solid rgb(255,245,227);
   text-align: center
 }
@@ -18,4 +18,5 @@ body {
   text-align: left;
   justify-content: space-around;
 }
+#title {font-family: cursive;}
 
