@@ -28,16 +28,16 @@ draw = function(){
   petal += 1;    
   
   
-  ellipse (305, petal + 150, sizepetal, sizepetal)
-  ellipse (150, petal + 150, sizepetal, sizepetal)
- ellipse (250, petal + 180, sizepetal, 20)
+  ellipse (360, petal + 80, sizepetal, sizepetal)
+  ellipse (60, petal + 150, sizepetal, sizepetal)
+ ellipse (250, petal + 50, sizepetal, 20)
   
   sizepetal -= .25 
  
   ellipse( 190, fastpetal+50, 10, 20);
   ellipse( 350, fastpetal+80, 10, 20); 
   ellipse( 30, fastpetal+300, 10, 20);  
-  ellipse (200, fastpetal + 150, 20, sizepetal);
+  ellipse (200, fastpetal + 200, 20, sizepetal);
    ellipse( 390, fastpetal, 10, 20);
    ellipse( 60, fastpetal, 10, 20);
     ellipse(270, fastpetal+260, 10, 20);
@@ -45,12 +45,12 @@ draw = function(){
       ellipse(10, fastpetal+150, 10, 20);
  fastpetal +=2  
  
- if(fastpetal>400) {fastpetal=0}
+if(fastpetal>400) {fastpetal=0}
  if(petal>400) {petal=0}
- if (sizepetal> 20) {sizepetal=0}
+ if (sizepetal< 0) {sizepetal=20} 
  
 
-  
+   
 }
 
 //🟡Extra FUN Features Ms. Hall Added
