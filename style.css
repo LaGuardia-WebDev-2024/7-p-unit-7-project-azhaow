@@ -1,15 +1,16 @@
 body {
-  background-color: black;
+  background-color: pink;
   text-align: center;
   color: white;
 }
 
 
 #myCanvas {
-  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  background-size: 400px;
-  border-radius: 30px;
+  background-image: url("https://www.shutterstock.com/image-vector/cherry-blossom-spring-garden-flower-600nw-1573921315.jpg");
+  background-size: px;
+  border-radius: 40px;
   border: 1px solid rgb(255,245,227);
+  text-align: center
 }
 
 .main{
@@ -17,4 +18,5 @@ body {
   text-align: left;
   justify-content: space-around;
 }
+
 
